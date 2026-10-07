@@ -1,6 +1,6 @@
 {
   "name": "@agent-utils/mockserver",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Switch frontend HTTP traffic between mock and real APIs without changing application code.",
   "license": "MIT",
   "homepage": "https://dheerajprogrammer.github.io/agent-utils-mockserver/",
