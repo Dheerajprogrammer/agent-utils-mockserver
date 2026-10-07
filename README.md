@@ -1,5 +1,7 @@
 # @agent-utils/mockserver
 
+[![Deploy documentation](https://github.com/Dheerajprogrammer/agent-utils-mockserver/actions/workflows/deploy-docs.yml/badge.svg)](https://github.com/Dheerajprogrammer/agent-utils-mockserver/actions/workflows/deploy-docs.yml)
+
 @agent-utils/mockserver transparently intercepts HTTP traffic with [MSW](https://mswjs.io/). Your application continues to use `fetch`, Axios, React Query, RTK Query, SWR, Angular `HttpClient`, or `XMLHttpRequest` normally; only the application bootstrap changes.
 
 [Documentation](https://dheerajprogrammer.github.io/agent-utils-mockserver/) · [npm](https://www.npmjs.com/package/@agent-utils/mockserver) · [Report an issue](https://github.com/Dheerajprogrammer/agent-utils-mockserver/issues) · [Sponsor](https://github.com/sponsors/Dheerajprogrammer)
