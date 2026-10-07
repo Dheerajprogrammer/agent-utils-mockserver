@@ -27,3 +27,5 @@ features:
 <iframe src="https://github.com/sponsors/Dheerajprogrammer/button" title="Sponsor Dheerajprogrammer" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
 
 [Sponsor Dheerajprogrammer](https://github.com/sponsors/Dheerajprogrammer) to help support maintenance and future improvements.
+
+The package is available on [npm](https://www.npmjs.com/package/@agent-utils/mockserver); source code and issue tracking live on [GitHub](https://github.com/Dheerajprogrammer/agent-utils-mockserver).
