@@ -1,0 +1,69 @@
+{
+  "name": "@agent-utils/mockserver",
+  "version": "1.0.3",
+  "description": "Switch frontend HTTP traffic between mock and real APIs without changing application code.",
+  "license": "MIT",
+  "homepage": "https://dheerajprogrammer.github.io/agent-utils-mockserver/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dheerajprogrammer/agent-utils-mockserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dheerajprogrammer/agent-utils-mockserver/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Dheerajprogrammer"
+  },
+  "keywords": [
+    "mock-server",
+    "mock-api",
+    "msw",
+    "testing",
+    "openapi"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./node": {
+      "types": "./dist/node.d.ts",
+      "import": "./dist/node.js"
+    }
+  },
+  "bin": {
+    "easymockapi": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "msw": "^2.0.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "yaml": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "msw": "^2.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0",
+    "vitepress": "^1.6.3",
+    "vitest": "^2.0.0"
+  }
+}
