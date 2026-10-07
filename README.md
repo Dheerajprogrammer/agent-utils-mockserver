@@ -1,12 +1,17 @@
 # @agent-utils/mockserver
 
-[![Deploy documentation](https://github.com/Dheerajprogrammer/agent-utils-mockserver/actions/workflows/deploy-docs.yml/badge.svg)](https://github.com/Dheerajprogrammer/agent-utils-mockserver/actions/workflows/deploy-docs.yml)
+<p align="center">
+  <a href="https://dheerajprogrammer.github.io/agent-utils-mockserver/"><img src="https://img.shields.io/badge/Documentation-646CFF?style=for-the-badge&logo=vitepress&logoColor=white" alt="Documentation"></a>
+  <a href="https://www.npmjs.com/package/@agent-utils/mockserver"><img src="https://img.shields.io/npm/v/@agent-utils/mockserver?style=for-the-badge&logo=npm&label=npm" alt="npm"></a>
+  <a href="https://github.com/Dheerajprogrammer/agent-utils-mockserver/issues"><img src="https://img.shields.io/github/issues/Dheerajprogrammer/agent-utils-mockserver?style=for-the-badge&logo=github&label=Issues" alt="Report an issue"></a>
+  <a href="https://github.com/sponsors/Dheerajprogrammer"><img src="https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor Dheerajprogrammer"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Dheerajprogrammer/agent-utils-mockserver/actions/workflows/deploy-docs.yml"><img src="https://github.com/Dheerajprogrammer/agent-utils-mockserver/actions/workflows/deploy-docs.yml/badge.svg" alt="Deploy documentation"></a>
+</p>
 
 @agent-utils/mockserver transparently intercepts HTTP traffic with [MSW](https://mswjs.io/). Your application continues to use `fetch`, Axios, React Query, RTK Query, SWR, Angular `HttpClient`, or `XMLHttpRequest` normally; only the application bootstrap changes.
-
-[Documentation](https://dheerajprogrammer.github.io/agent-utils-mockserver/) · [npm](https://www.npmjs.com/package/@agent-utils/mockserver) · [Report an issue](https://github.com/Dheerajprogrammer/agent-utils-mockserver/issues) · [Sponsor](https://github.com/sponsors/Dheerajprogrammer)
-
-<iframe src="https://github.com/sponsors/Dheerajprogrammer/button" title="Sponsor Dheerajprogrammer" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
 
 ## Install
 
